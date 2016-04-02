@@ -47,3 +47,5 @@ router.get('/', function(req, res, next) {
 * After you have that all set up, run the server in nodemon and check out localhost:3000 to see if you are populating the table correctly. The gardener "Kaleo" should have the plants "Taro" and "Sugarcane"; "Aleksey" should have "Potato" and "Cabbage".
 
 * Be sure to console.log(results); when creating the innerJoin (inside of the .then function) to see the output you are getting from knex to get an idea of how the innerJoin is bringing your data together.
+
+* Also check out the seed files to see how the data was inserted into each table and how the plants have a reference "gardener_id" to the gardeners in the gardener table.

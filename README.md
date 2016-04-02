@@ -45,3 +45,5 @@ router.get('/', function(req, res, next) {
 * There are many types of joins, though if you don't know what kind of join you need, an innerJoin is generally a good bet. If that doesn't work check out this site to learn more about the specifics of different types of joins: http://www.sql-join.com/
 
 * After you have that all set up, run the server in nodemon and check out localhost:3000 to see if you are populating the table correctly. The gardener "Kaleo" should have the plants "Taro" and "Sugarcane"; "Aleksey" should have "Potato" and "Cabbage".
+
+* Be sure to console.log(results); when creating the innerJoin (inside of the .then function) to see the output you are getting from knex to get an idea of how the innerJoin is bringing your data together.

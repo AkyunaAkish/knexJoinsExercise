@@ -1,0 +1,24 @@
+<h1>Plants 'n Gardeners</h1>
+
+<table>
+  <thead>
+    <th>
+      Plants
+    </th>
+    <th>
+      Farmers
+    </th>
+  </thead>
+  <tbody>
+    {{#plantsAndGardeners}}
+    <tr>
+      <td>
+        {{plant_name}}
+      </td>
+      <td>
+        {{gardener_name}}
+      </td>
+    </tr>
+    {{/plantsAndGardeners}}
+  </tbody>
+</table>

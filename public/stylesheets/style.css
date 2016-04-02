@@ -1,0 +1,29 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: url('http://images.travelpod.com/tripwow/photos2/ta-0181-bff6-7bb2/hanalei-taro-fields-hanalei-united-states+1152_13053259148-tpfil02aw-22042.jpg');
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+table td,table th  {
+  border: 1px solid white;
+  background: black;
+  color: white;
+}
+
+table {
+  width: 80vw;
+  height: 40vh;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 200px;
+  color: white;
+
+}

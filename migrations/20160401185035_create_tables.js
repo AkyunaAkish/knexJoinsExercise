@@ -1,4 +1,3 @@
-
 exports.up = function(knex, Promise) {
   return knex.schema.createTable('gardeners', function(table){
     table.increments('gardener_id');
